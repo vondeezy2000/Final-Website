@@ -1,0 +1,89 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: White;
+            background-size: cover;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 20%;
+            background-color: Black;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            padding: 16px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        li a.active {
+            background-color: #BC0738;
+        }
+
+        li a:hover:not(.active) {
+            background-color: Grey;
+        }
+
+        .goodies {
+            margin-left: 20%;
+            padding: 5vw;
+            height: 1000px;
+        }
+
+        h2, h4 {
+            color: #BF064A;
+            font-family: 'Parisienne', cursive;
+            font-size: 36px;
+            margin-top: 40px;
+            text-align:center;
+        }
+
+        h3 {
+            color: #BC0738;
+        }
+        h6 {
+            color: #BF064A;
+            font-size: 1.4vw;
+        }
+
+        p, li, ul {
+            line-height: 1.5;
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+            }
+        
+
+        img {
+            width: 75%;
+            height: auto;
+            display: block;
+            margin: 3vw auto;
+        }
+        .center-table {
+             margin: 0 auto;
+            }
+            label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: Black;
+    }
+
+    // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+
+.reddit-sans-<uniquifier> {
+  font-family: "Reddit Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
